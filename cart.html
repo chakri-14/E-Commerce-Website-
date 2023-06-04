@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <title>The-Box</title>
+</head>
+<body >
+    <section id="navbar">
+        <a href="#"><img src="./images/logo.png"></a> 
+    <div>
+       <ul id="nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a class="active"href="shop.html">Shop</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li class="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+      <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+       </ul> 
+    </div>
+    <div id="mobile">
+      <a href="cart.html"> <i class="fa-solid fa-cart-shopping"></i></a>
+      <i id="bar" class="fas fa-outdent"></i>
+   </div>
+</section>
+<section id="page-heade">
+    <h1>You made it</h1>
+    <p>Complete your order and grab your sneaker</p>
+    </section>
+    <section id="cart" class="section-p1">
+        <table width="100%">
+        <thead>
+            <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+            </tr>
+        </thead>  
+        <tbody>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="./shoes/aj-2.jpg"></td>
+                <td>Air-jordan High Tops</td>
+              
+                <td><input type="number" value="1"></td>
+                <td>$799</td>
+            </tr>
+        </tbody>
+        </table>
+    </section>
+    <section id="cartadd" class="section-p1">
+    <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+            <input type="text" placeholder="coupon">
+            <button class="norm">Apply</button>
+        </div>
+    </div>
+    <div id="subtotal">
+        <h3>Cart total</h3>
+        <table>
+            <tr>
+                <td>Total</td>
+                <td>$799</td>    
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td><Strong>Total</Strong></td>
+                <td><strong>$799</strong></td>
+            </tr>
+        </table>
+        <button id="norm">Proceed to checkout</button>
+    </div>
+    </section>
+    
+ 
+    
+<script src="script.js"></script>
+</body>
+</html>
